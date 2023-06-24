@@ -1,4 +1,77 @@
+
+/* HEADER */
+
 #header-nav {
     border: 0;
     background-color: darkorange;
+    
+}
+
+h1.text-center {
+    font-family: "QuickSand", sans-serif;
+}
+
+.navbar-brand {
+    height: auto;
+}
+
+.navbar-brand h1 {
+    margin-top: 15px;
+    font-family: "QuickSand", sans-serif;
+    font-size: 2em;
+    color: black;
+    margin: 0;
+    
+}
+
+.icon-bar {
+    border: 1px solid;
+}
+
+
+
+/* p.text-center {
+    border: 1px solid;
+} */
+
+/* MAIN CONTENT */
+
+#main-content h1 {
+    margin-bottom: 30px;
+}
+
+.text-content {
+    padding: 25px;
+}
+
+@media (max-width: 767px) {
+#collapsable-nav {
+    background-color: cornflowerblue;
+}
+
+#nav-list {
+    margin: 0;
+}
+
+#nav-list li {
+    width: 100%;
+}
+
+#nav-list li p {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+/* #first-option {
+    border: 1px solid;
+}
+
+#second-option {
+    border: 0 1px 0 1px solid;
+}
+
+#third-option {
+    border: 0 1px 1px 0 solid;
+} */
+
 }
